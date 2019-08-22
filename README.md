@@ -1,4 +1,4 @@
-With this [Piku](https://github.com/rcarmo/piku) application you can deploy Gitea.
+With this [Piku](https://github.com/rcarmo/piku) application you can deploy [Gitea](https://gitea.io/).
 
 ```
 git remote add piku piku@yourserver.net:gitea
