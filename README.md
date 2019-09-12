@@ -13,17 +13,17 @@ piku config:set NGINX_SERVER_NAME=gitea.somedomain.net
 You can run `gitea admin` on the remote:
 
 ```shell
-piku run ./gitea admin
+piku run gitea ./gitea admin
 ```
 
 You can edit the remote gitea config like this:
 
 ```shell
-piku -t run vi '$VIRTUAL_ENV/gitea/custom/conf/app.ini'
+piku run gitea vi '$VIRTUAL_ENV/gitea/custom/conf/app.ini'
 ```
 
 You can tail the remote gitea logs like this:
 
 ```shell
-piku -t run tail -- -qF '$VIRTUAL_ENV/gitea/log/*.log'
+piku run gitea tail -- -qF '$VIRTUAL_ENV/gitea/log/*.log'
 ```
